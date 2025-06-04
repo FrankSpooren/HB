@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📋 HolidaiButler Ready Templates</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: #ffffff;
+            padding: 2rem;
+            min-height: 100vh;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #5E8B7E, #D4AF37);
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .template-section {
+            background: rgba(255,255,255,0.05);
+            backdrop-filter: blur(10px);
+            padding: 2rem;
+            border-radius: 15px;
+            margin-bottom: 2rem;
+            border: 2px solid #10b981;
+        }
+
+        .template-card {
+            background: rgba(0,0,0,0.3);
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-bottom: 1.5rem;
+            border-left: 4px solid #10b981;
+        }
+
+        .template-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .template-title {
+            color: #10b981;
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        .template-content {
+            background: #1e293b;
+            padding: 1rem;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            line-height: 1.4;
+            white-space: pre-wrap;
+            position: relative;
+        }
+
+        .copy-button {
+            background: #10b981;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .copy-button:hover {
+            background: #059669;
+        }
+
+        .copied {
+            background: #22c55e !important;
+        }
+
+        .phase-header {
+            background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+
+        .priority-badge {
+            background: #dc2626;
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 700;
+        }
+
+        .priority-high { background: #dc2626; }
+        .priority-medium { background: #f59e0b; }
+        .priority-low { background: #10b981; }
+
+        @media (max-width: 768px) {
+            .template-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 style="font-size: 2.5rem; margin-bottom: 1rem;">📋 HolidaiButler Copy-Paste Templates</h1>
+        <p style="font-size: 1.2rem;">Ready-to-use prompts voor elke chat - Complete set van 15 templates</p>
+    </div>
+
+    <!-- PHASE 1: BACKEND FOUNDATION -->
+    <div class="template-section">
+        <div class="phase-header">🔧 PHASE 1: BACKEND FOUNDATION (Chats 1-7)</div>
+
+        <div class="template-card">
+            <div class="template-header">
+                <div>
+                    <span class="template-title">Chat #1: server.js</span>
+                    <span class="priority-badge priority-high">KRITIEK</span>
+                </div>
+                <button class="copy-button" onclick="copyTemplate(1)">📋 Copy</button>
+            </div>
+            <div class="template-content" id="template-1">HOLIDAIBUTLER DEVELOPMENT - CHAT #1
+TARGET FILE: server.js
+CONTEXT: Mediterranean AI Travel Platform - Main backend entry point
+REQUIREMENTS: 
+- Express.js server setup with middleware
+- CORS configuration for mobile app
+- MongoDB connection with Atlas
+- Environment variables handling
+- Health check endpoints
+- Error handling middleware
+- Rate limiting setup
+- GDPR compliance headers
+- Socket.io integration for real-time chat
+INTEGRATION: Works with app.js, connects to MongoDB Atlas EU region
+PREVIOUS: Project architecture defined, Mediterranean branding approved
+
+Generate complete production-ready server.js with:
+- Full Express server implementation
+- Mediterranean branding comments
+- Comprehensive error handling
+- Security middleware
+- Environment configuration
+- Database connection logic
+- Socket.io real-time setup
+- Health monitoring endpoints
+- EU GDPR compliance features</div>
+        </div>
+
+        <div class="template-card">
+            <div class="template-header">
+                <div>
+                    <span class="template-title">Chat #2: app.js</span>
+                    <span class="priority-badge priority-high">KRITIEK</span>
+                </div>
+                <button class="copy-button" onclick="copyTemplate(2)">📋 Copy</button>
+            </div>
+            <div class="template-content" id="template-2">HOLIDAIBUTLER DEVELOPMENT - CHAT #2
+TARGET FILE: app.js
+CONTEXT: Mediterranean AI Travel Platform - Express application configuration
+REQUIREMENTS:
+- Express app configuration and middleware setup
+- Route mounting for auth, chat, POI, bookings
+- CORS configuration for React Native mobile app
+- Body parsing and security middleware
+- Session handling with Redis
+- File upload handling for profile images
+- API versioning structure (/api/v1/)
+- Request logging and analytics middleware
+- Error handling and 404 routes
+INTEGRATION: Used by server.js, connects all route modules
+PREVIOUS: server.js completed with basic Express setup
+
+Generate complete production-ready app.js with:
+- Complete Express configuration
+- All middleware implementations  
+- Route mounting structure
+- Security configurations
+- Session and cookie handling
+- File upload capabilities
+- Request/response logging
+- Error boundary handling
+- Mediterranean branding integration</div>
+        </div>
+
+        <div class="template-card">
+            <div class="template-header">
+                <div>
+                    <span class="template-title">Chat #3: ClaudeService.js</span>
+                    <span class="priority-badge priority-high">KRITIEK</span>
+                </div>
+                <button class="copy-button" onclick="copyTemplate(3)">📋 Copy</button>
+            </div>
+            <div class="template-content" id="template-3">HOLIDAIBUTLER DEVELOPMENT - CHAT #3
+TARGET FILE: services/ClaudeService.js
+CONTEXT: Mediterranean AI Travel Platform - Core AI integration service
+REQUIREMENTS:
+- Claude 3.5 Sonnet API integration with Anthropic SDK
+- Mediterranean-specific system prompts and context
+- Rate limiting and quota management (50 req/min)
+- Response caching with Redis integration
+- Fallback responses when Claude unavailable
+- POI recommendation extraction from AI responses
+- Weather and location context integration
+- Conversation history management
+- Token usage tracking and optimization
+- Error handling with graceful degradation
+INTEGRATION: Used by chat routes, integrates with POIService and WeatherService
+PREVIOUS: server.js and app.js completed, basic backend structure ready
+
+Generate complete production-ready ClaudeService.js with:
+- Full Anthropic Claude API integration
+- Mediterranean travel expertise prompts
+- Intelligent caching system
+- Rate limiting implementation
+- Fallback response system
+- POI extraction algorithms
+- Context-aware conversation handling
+- Performance monitoring
+- Error recovery mechanisms
+- Costa Blanca specialization features</div>
+        </div>
+
+        <div class="template-card">
+            <div class="template-header">
+                <div>
+                    <span class="template-title">Chat #4: models/User.js</span>
+                    <span class="priority-badge priority-high">KRITIEK</span>
+                </div>
+                <button class="copy-button" onclick="copyTemplate(4)">📋 Copy</button>
+            </div>
+            <div class="template-content" id="template-4">HOLIDAIBUTLER DEVELOPMENT - CHAT #4
+TARGET FILE: models/User.js
+CONTEXT: Mediterranean AI Travel Platform - User data model and schema
+REQUIREMENTS:
+- MongoDB/Mongoose schema for user accounts
+- Password hashing with bcrypt (12 rounds)
+- Profile data (name, preferences, language)
+- Travel preferences (interests, budget, group size)
+- GDPR privacy settings and consent tracking
+- Subscription management (free/premium tiers)
+- Location history and favorite POIs
+- Authentication tokens and session management
+- Account statistics (login history, usage)
+- Data export functionality for GDPR compliance
+INTEGRATION: Used by authentication routes and profile management
+PREVIOUS: Backend foundation established, Claude service ready
+
+Generate complete production-ready models/User.js with:
+- Complete Mongoose schema definition
+- Password encryption/comparison methods
+- GDPR-compliant data structure
+- Privacy settings management
+- Travel preference tracking
+- Subscription tier handling
+- Location and favorites storage
+- Data validation and sanitization
+- Export/deletion methods for compliance
+- Mediterranean travel context integration</div>
+        </div>
+
+        <div class="template-card">
+            <div class="template-header">
+                <div>
+                    <span class="template-title">Chat #5: routes/auth.js</span>
+                    <span class="priority-badge priority-high">KRITIEK</span>
+                </div>
+                <button class="copy-button" onclick="copyTemplate(5)">📋 Copy</button>
+            </div>
+            <div class="template-content" id="template-5">HOLIDAIBUTLER DEVELOPMENT - CHAT #5
+TARGET FILE: routes/auth.js
+CONTEXT: Mediterranean AI Travel Platform - Authentication API endpoints
+REQUIREMENTS:
+- User registration with email validation
+- Login with JWT token generation (24h access, 7d refresh)
+- Password reset with email confirmation
+- Social OAuth integration (Google, Facebook)
+- Rate limiting for auth endpoints (5 attempts/15min)
+- GDPR privacy consent handling
+- Account verification via email
+- Session management and logout
+- Multi-language support for auth messages
+- Analytics tracking for auth events
+INTEGRATION: Uses User model, integrates with EmailService for notifications
+PREVIOUS: User model completed, authentication structure defined
+
+Generate complete production-ready routes/auth.js with:
+- Full authentication endpoint implementation
+- JWT token management system
+- Password reset workflow
+- Email verification process
+- Rate limiting protection
+- GDPR consent integration
+- Social login capabilities
+- Security headers and validation
+- Multi-language response messages
+- Analytics event tracking</div>
+        </div>
+
+        <div class="template-card">
+            <div class="template-header">
+                <div>
+                    <span class="template-title">Chat #6: routes/chat.js</span>
+                    <span class="priority-badge priority-high">KRITIEK</span>
+                </div>
+                <button class="copy-button" onclick="copyTemplate(6)">📋 Copy</button>
+            </div>
+            <div class="template-content" id="template-6">HOLIDAIBUTLER DEVELOPMENT - CHAT #6
+TARGET FILE: routes/chat.js
+CONTEXT: Mediterranean AI Travel Platform - Chat API endpoints
+REQUIREMENTS:
+- POST /api/chat/message for sending messages to AI
+- GET /api/chat/history for retrieving conversation history
+- WebSocket integration for real-time responses
+- Message validation and sanitization
+- Conversation persistence in MongoDB
+- Integration with ClaudeService for AI responses
+- POI recommendation extraction and formatting
+- User context (location, preferences) integration
+- Rate limiting for chat endpoints
+- Analytics tracking for chat interactions
+INTEGRATION: Uses ClaudeService, User model, integrates with Socket.io
+PREVIOUS: ClaudeService and User model completed, authentication ready
+
+Generate complete production-ready routes/chat.js with:
+- Complete chat API implementation
+- Real-time WebSocket integration
+- Message processing pipeline
+- Conversation history management
+- AI response integration
+- POI recommendation handling
+- User context integration
+- Input validation and security
+- Performance monitoring
+- Mediterranean travel context optimization</div>
+        </div>
+
+        <div class="template-card">
+            <div class="template-header">
+                <div>
+                    <span class="template-title">Chat #7: package.json (Backend)</span>
+                    <span class="priority-badge priority-medium">BELANGRIJK</span>
+                </div>
+                <button class="copy-button" onclick="copyTemplate(7)">📋 Copy</button>
+            </div>
+            <div class="template-content" id="template-7">HOLIDAIBUTLER DEVELOPMENT - CHAT #7
+TARGET FILE: package.json (Backend)
+CONTEXT: Mediterranean AI Travel Platform - Backend dependencies and scripts
+REQUIREMENTS:
+- Express.js, Socket.io for server functionality
+- Mongoose for MongoDB, Redis for caching
+- @anthropic-ai/sdk for Claude API integration
+- JWT, bcrypt, passport for authentication
+- Multer for file uploads, CORS for cross-origin
+- Helmet for security, express-rate-limit for protection
+- Nodemailer for emails, stripe for payments
+- Jest for testing, nodemon for development
+- ESLint, Prettier for code quality
+- Scripts for development, production, testing, deployment
+INTEGRATION: Supports all backend modules and services
+PREVIOUS: All core backend files completed, ready for dependency management
+
+Generate complete production-ready package.json with:
+- All required dependencies with specific versions
+- Development and production scripts
+- Testing and deployment commands
+- Code quality tools configuration
+- Environment-specific configurations
+- Security and performance dependencies
+- Monitoring and logging tools
+- Database and caching solutions
+- AI and external API integrations
+- Mediterranean platform optimizations</div>
+        </div>
+    </div>
+
+    <!-- PHASE 2: MOBILE APP -->
+    <div class="template-section">
+        <div class="phase-header">📱 PHASE 2: MOBILE APPLICATION (Chats 8-12)</div>
+
+        <div class="template-card">
+            <div class="template-header">
+                <div>
+                    <span class="template-title">Chat #8: App.tsx</span>
+                    <span class="priority-badge priority-high">KRITIEK</span>
+                </div>
+                <button class="copy-button" onclick="copyTemplate(8)">📋 Copy</button>
+            </div>
+            <div class="template-content" id="template-8">HOLIDAIBUTLER DEVELOPMENT - CHAT #8
+TARGET FILE: App.tsx (React Native)
+CONTEXT: Mediterranean AI Travel Platform - Main mobile app entry point
+REQUIREMENTS:
+- React Native app initialization with TypeScript
+- Navigation container setup with React Navigation
+- Redux store provider integration
+- Authentication flow management
+- Splash screen with Mediterranean branding
+- Network status monitoring
+- Push notifications setup
+- Error boundary implementation
+- Theme provider with Mediterranean colors
+- Offline data synchronization setup
+INTEGRATION: Entry point for entire mobile app, connects all screens
+PREVIOUS: Backend API completed, ready for mobile app development
+
+Generate complete production-ready App.tsx with:
+- Complete React Native app setup
+- Navigation and routing configuration
+- Redux state management integration
+- Authentication flow handling
+- Mediterranean theme implementation
+- Network connectivity management
+- Error handling and crash reporting
+- Performance optimization
+- Offline capability setup
+- Push notification integration</div>
+        </div>
+
+        <div class="template-card">
+            <div class="template-header">
+                <div>
+                    <span class="template-title">Chat #9: ChatScreen.tsx</span>
+                    <span class="priority-badge priority-high">KRITIEK</span>
+                </div>
+                <button class="copy-button" onclick="copyTemplate(9)">📋 Copy</button>
+            </div>
+            <div class="template-content" id="template-9">HOLIDAIBUTLER DEVELOPMENT - CHAT #9
+TARGET FILE: screens/ChatScreen.tsx
+CONTEXT: Mediterranean AI Travel Platform - Main chat interface
+REQUIREMENTS:
+- Chat interface with message bubbles (user/AI)
+- Real-time messaging with WebSocket integration
+- AI response streaming and typing indicators
+- POI recommendation cards with booking buttons
+- Voice input capability with speech-to-text
+- Image recognition for POI questions
+- Offline message queuing and sync
+- Mediterranean UI theme with coastal colors
+- Location-aware context sharing
+- Conversation history with infinite scroll
+INTEGRATION: Uses MessageBubble component, connects to chat API
+PREVIOUS: App.tsx completed, navigation structure ready
+
+Generate complete production-ready ChatScreen.tsx with:
+- Complete chat interface implementation
+- Real-time messaging capabilities
+- AI response handling and display
+- POI recommendation integration
+- Voice and image input features
+- Offline functionality
+- Mediterranean design system
+- Location context integration
+- Performance optimized scrolling
+- Accessibility features</div>
+        </div>
+
+        <div class="template-card">
+            <div class="template-header">
+                <div>
+                    <span class="template-title">Chat #10: MainNavigator.tsx</span>
+                    <span class="priority-badge priority-medium">BELANGRIJK</span>
+                </div>
+                <button class="copy-button" onclick="copyTemplate(10)">📋 Copy</button>
+            </div>
+            <div class="template-content" id="template-10">HOLIDAIBUTLER DEVELOPMENT - CHAT #10
+TARGET FILE: navigation/MainNavigator.tsx
+CONTEXT: Mediterranean AI Travel Platform - App navigation structure
+REQUIREMENTS:
+- Bottom tab navigation with Chat, Map, Profile screens
+- Stack navigation for detailed screens (POI details, bookings)
+- Authentication flow with login/register screens
+- Deep linking for POI sharing and booking confirmations
+- Tab bar with Mediterranean compass icons
+- Gesture navigation support
+- Navigation state persistence
+- Screen transition animations
+- Dynamic tab badge for notifications
+- Conditional navigation based on auth state
+INTEGRATION: Connects all screens, manages app navigation flow
+PREVIOUS: App.tsx and ChatScreen.tsx completed
+
+Generate complete production-ready MainNavigator.tsx with:
+- Complete navigation structure implementation
+- Tab and stack navigation setup
+- Authentication flow integration
+- Deep linking configuration
+- Mediterranean themed navigation
+- Gesture and animation support
+- State persistence handling
+- Notification badge system
+- Screen lifecycle management
+- Performance optimized transitions</div>
+        </div>
+
+        <div class="template-card">
+            <div class="template-header">
+                <div>
+                    <span class="template-title">Chat #11: MapScreen.tsx</span>
+                    <span class="priority-badge priority-medium">BELANGRIJK</span>
+                </div>
+                <button class="copy-button" onclick="copyTemplate(11)">📋 Copy</button>
+            </div>
+            <div class="template-content" id="template-11">HOLIDAIBUTLER DEVELOPMENT - CHAT #11
+TARGET FILE: screens/MapScreen.tsx
+CONTEXT: Mediterranean AI Travel Platform - Interactive map interface
+REQUIREMENTS:
+- Interactive map with React Native Maps
+- POI markers with Mediterranean styling
+- User location tracking and centering
+- Clustering for nearby POIs
+- Custom callout bubbles with POI details
+- Filter controls for POI categories
+- Search functionality with autocomplete
+- Route planning to selected POIs
+- Offline map caching for Costa Blanca
+- Integration with chat for location-based recommendations
+INTEGRATION: Uses POI data from backend, integrates with ChatScreen
+PREVIOUS: Navigation and chat functionality completed
+
+Generate complete production-ready MapScreen.tsx with:
+- Complete interactive map implementation
+- POI marker system with clustering
+- Location services integration
+- Filter and search functionality
+- Custom Mediterranean map styling
+- Route planning capabilities
+- Offline map support
+- Chat integration features
+- Performance optimized rendering
+- Accessibility compliance</div>
+        </div>
+
+        <div class="template-card">
+            <div class="template-header">
+                <div>
+                    <span class="template-title">Chat #12: package.json (Mobile)</span>
+                    <span class="priority-badge priority-medium">BELANGRIJK</span>
+                </div>
+                <button class="copy-button" onclick="copyTemplate(12)">📋 Copy</button>
+            </div>
+            <div class="template-content" id="template-12">HOLIDAIBUTLER DEVELOPMENT - CHAT #12
+TARGET FILE: package.json (React Native)
+CONTEXT: Mediterranean AI Travel Platform - Mobile app dependencies
+REQUIREMENTS:
+- React Native with TypeScript support
+- React Navigation for app navigation
+- Redux Toolkit for state management
+- React Native Maps for map functionality
+- Socket.io client for real-time chat
+- AsyncStorage for offline data
+- React Native Voice for speech input
+- React Native Camera for image recognition
+- Push notifications (react-native-push-notification)
+- Build scripts for iOS and Android deployment
+INTEGRATION: Supports all mobile app functionality
+PREVIOUS: All mobile screens and navigation completed
+
+Generate complete production-ready package.json with:
+- All React Native dependencies
+- Navigation and state management
+- Map and location services
+- Real-time communication tools
+- Offline and caching solutions
+- Media and input capabilities
+- Push notification setup
+- Build and deployment scripts
+- Development and testing tools
+- Performance monitoring</div>
+        </div>
+    </div>
+
+    <!-- PHASE 3: INFRASTRUCTURE -->
+    <div class="template-section">
+        <div class="phase-header">🐳 PHASE 3: INFRASTRUCTURE & DEPLOYMENT (Chats 13-15)</div>
+
+        <div class="template-card">
+            <div class="template-header">
+                <div>
+                    <span class="template-title">Chat #13: Dockerfile</span>
+                    <span class="priority-badge priority-medium">BELANGRIJK</span>
+                </div>
+                <button class="copy-button" onclick="copyTemplate(13)">📋 Copy</button>
+            </div>
+            <div class="template-content" id="template-13">HOLIDAIBUTLER DEVELOPMENT - CHAT #13
+TARGET FILE: Dockerfile
+CONTEXT: Mediterranean AI Travel Platform - Container configuration
+REQUIREMENTS:
+- Multi-stage Docker build for production optimization
+- Node.js 18+ base image with Alpine Linux
+- Dependency installation with npm ci for production
+- Security best practices (non-root user, minimal packages)
+- Health check configuration
+- Environment variable handling
+- Build optimization for faster deployments
+- Layer caching for efficient builds
+- Security scanning compatibility
+- EU GDPR compliance considerations
+INTEGRATION: Containerizes backend API for deployment
+PREVIOUS: Complete backend and mobile app ready for deployment
+
+Generate complete production-ready Dockerfile with:
+- Multi-stage optimized build process
+- Security hardened configuration
+- Efficient layer caching
+- Health monitoring setup
+- Production environment optimization
+- Minimal attack surface
+- Fast startup and deployment
+- Resource usage optimization
+- Logging and monitoring integration
+- EU deployment compliance</div>
+        </div>
+
+        <div class="template-card">
+            <div class="template-header">
+                <div>
+                    <span class="template-title">Chat #14: docker-compose.yml</span>
+                    <span class="priority-badge priority-low">NICE-TO-HAVE</span>
+                </div>
+                <button class="copy-button" onclick="copyTemplate(14)">📋 Copy</button>
+            </div>
+            <div class="template-content" id="template-14">HOLIDAIBUTLER DEVELOPMENT - CHAT #14
+TARGET FILE: docker-compose.yml
+CONTEXT: Mediterranean AI Travel Platform - Local development environment
+REQUIREMENTS:
+- Multi-service setup (API, MongoDB, Redis, Nginx)
+- Development environment configuration
+- Volume mounting for live code reloading
+- Network configuration for service communication
+- Environment variable management
+- Database initialization and seeding
+- Redis caching setup
+- Nginx reverse proxy configuration
+- Health checks and restart policies
+- Development debugging capabilities
+INTEGRATION: Complete local development stack
+PREVIOUS: Dockerfile completed, ready for multi-service setup
+
+Generate complete production-ready docker-compose.yml with:
+- Complete multi-service architecture
+- Development-optimized configuration
+- Database and caching services
+- Reverse proxy setup
+- Volume and network management
+- Environment configuration
+- Health monitoring
+- Auto-restart policies
+- Debugging and logging setup
+- Local development optimization</div>
+        </div>
+
+        <div class="template-card">
+            <div class="template-header">
+                <div>
+                    <span class="template-title">Chat #15: deployment.yaml</span>
+                    <span class="priority-badge priority-low">NICE-TO-HAVE</span>
+                </div>
+                <button class="copy-button" onclick="copyTemplate(15)">📋 Copy</button>
+            </div>
+            <div class="template-content" id="template-15">HOLIDAIBUTLER DEVELOPMENT - CHAT #15
+TARGET FILE: k8s/deployment.yaml
+CONTEXT: Mediterranean AI Travel Platform - Kubernetes production deployment
+REQUIREMENTS:
+- Kubernetes deployment configuration for EU region
+- Auto-scaling based on CPU/memory usage
+- Rolling update strategy for zero-downtime deploys
+- Resource limits and requests optimization
+- Liveness and readiness probe configuration
+- ConfigMap and Secret integration
+- Service discovery and load balancing
+- GDPR-compliant EU data residency
+- Monitoring and logging integration
+- High availability and fault tolerance
+INTEGRATION: Production Kubernetes deployment
+PREVIOUS: Complete application ready for production deployment
+
+Generate complete production-ready deployment.yaml with:
+- Complete Kubernetes deployment setup
+- Auto-scaling configuration
+- Rolling deployment strategy
+- Resource management
+- Health check implementation
+- Configuration management
+- Service networking
+- EU compliance configuration
+- Monitoring integration
+- High availability setup</div>
+        </div>
+    </div>
+
+    <div style="background: linear-gradient(135deg, #5E8B7E, #D4AF37); color: white; padding: 2rem; border-radius: 15px; text-align: center; margin-top: 2rem;">
+        <h2 style="margin-bottom: 1rem;">🎯 EXECUTION ROADMAP</h2>
+        <div style="text-align: left; max-width: 800px; margin: 0 auto;">
+            <h3 style="margin-bottom: 1rem;">Uitvoering in 15 chats:</h3>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
+                <div style="background: rgba(255,255,255,0.2); padding: 1rem; border-radius: 8px;">
+                    <strong>Chats 1-7: Backend Foundation</strong><br>
+                    Server, API, Database, AI Integration
+                </div>
+                <div style="background: rgba(255,255,255,0.2); padding: 1rem; border-radius: 8px;">
+                    <strong>Chats 8-12: Mobile App</strong><br>
+                    React Native, Navigation, Screens
+                </div>
+                <div style="background: rgba(255,255,255,0.2); padding: 1rem; border-radius: 8px;">
+                    <strong>Chats 13-15: Infrastructure</strong><br>
+                    Docker, Kubernetes, Deployment
+                </div>
+            </div>
+        </div>
+        <p style="margin-top: 2rem; font-size: 1.2rem; font-weight: 700;">
+            🚀 RESULTAAT: Complete productie-klare HolidaiButler platform
+        </p>
+    </div>
+
+    <script>
+        function copyTemplate(templateNumber) {
+            const templateElement = document.getElementById(`template-${templateNumber}`);
+            const text = templateElement.textContent;
+            
+            navigator.clipboard.writeText(text).then(() => {
+                const button = document.querySelector(`[onclick="copyTemplate(${templateNumber})"]`);
+                const originalText = button.textContent;
+                button.textContent = '✅ Copied!';
+                button.classList.add('copied');
+                
+                setTimeout(() => {
+                    button.textContent = originalText;
+                    button.classList.remove('copied');
+                }, 2000);
+            }).catch(err => {
+                alert('Could not copy text: ' + err);
+            });
+        }
+    </script>
+</body>
+</html>
